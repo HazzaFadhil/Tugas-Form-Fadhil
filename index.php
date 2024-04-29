@@ -31,7 +31,7 @@
 
     <Ol type="1">
         <li>Mengunjuni Website Ini</li>
-        <li>Mendaftar di <a href="form.html">form sign up </a></li>
+        <li>Mendaftar di <a href="form.php">form sign up </a></li>
         <li>Selesai</li>
     </Ol>
     

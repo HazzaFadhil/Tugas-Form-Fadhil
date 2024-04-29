@@ -17,18 +17,18 @@
 <h1>Buat Account Baru</h1>
     <h3>Sign Up Form</h3>
 
-    <form action="Welcomme.html" method="get">
+    <form action="Welcomme.php" method="get">
         
       <label for="fname">First Name:</label><br>
-      <input type="text" id="fname" value ="Fadhil"><br><br>
+      <input type="text" id="fname" name="fname" required /><br><br>
       <label for="lname">Last Name:</label><br>
-      <input type="text" id="lname" value ="Hazza"><br>
+      <input type="text" id="lname" name="lname" required /><br>
 
 <p>Gender</p>
         
-        <input type="radio" id="html" name="fav_language" value="html">
+        <input type="radio" id="Male" name="Gender" value="Male">
         <label for="html">Male</label><br>
-        <input type="radio" id="html" name="fav_language" value="html">
+        <input type="radio" id="Female" name="Gender" value="Female">
         <label for="html">Female</label>
 
 <p>Nationality</p>
@@ -40,12 +40,13 @@
         </select>
 
 <p>Language Spoken</p>
-
-        <input type="checkbox" id="Bahasa Indonesia" name="Bahasa Indonesia" value="Bahasa Indonesia">
+        
+        
+        <input type="checkbox" id="Bahasa Indonesia" name="language[]" value="Bahasa Indonesia">
         <label for="Bahasa Indnesia"> Bahasa Indonesia</label><br>
-        <input type="checkbox" id="inggris" name="inggris" value="inggris">
+        <input type="checkbox" id="inggris" name="language[]" value="inggris">
         <label for="inggris"> Inggris </label><br>
-        <input type="checkbox" id="sunda" name="sunda" value="sunda">
+        <input type="checkbox" id="sunda" name="language[]" value="sunda">
         <label for="sunda"> Sunda </label><br>
     
 
